@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://com.example">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:getCountryByCurrencyRequest>
+            <gs:currency>EUR</gs:currency>
+        </gs:getCountryByCurrencyRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
